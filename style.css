@@ -172,6 +172,10 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 20% 1fr 20%;
         gap: 1rem;
+        background-image: url('/assets/images/a320-clipart-7.png'), url('/assets/images/lrg_737max8.png');
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+    background-size: 400px 550px, 370px 500px;
         font-family: 'Acrom', Sans-Serif;
         font-style: normal;
         
@@ -196,9 +200,13 @@
         justify-self: center;
         grid-area: text6;
     }
-    p {width: 1161px;}
+    p {width: 1161px;
+        line-height: 29px;}
     ul {
         list-style-image: url("/assets/images/Rectangle\ 36.png");
+    }
+    li {
+        margin-bottom: 0.5em;
     }
     .list2 {
         direction: rtl;
